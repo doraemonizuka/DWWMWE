@@ -1,0 +1,92 @@
+body {
+    background-color: #EFE784;
+    font-family: 'Roboto', sans-serif;
+}
+
+h2,
+p,
+h3,
+img.avengers,
+img.star,
+img.woman {
+    padding-left: 150px
+}
+
+h1 {
+    padding-left: 410px;
+    color: #EFE784;
+    font-style: thin;
+    font-size: larger;
+    letter-spacing: 12px;
+}
+
+
+body {
+    margin: 250px;
+}
+
+p.sp2,
+p.sp3,
+h3.woman,
+p.woman {
+    color: #ffffff;
+}
+
+h2.intro {
+    padding-left: 430px;
+    letter-spacing: 12px;
+}
+
+p.intro,
+h2.intro {
+    color: #EFE784;
+}
+
+img.header {
+    width: 100%;
+    margin-bottom: -105px;
+    height: 250px;
+}
+
+img.logoheader {
+    width: 30%;
+    margin-top: -250px;
+    margin-left: 350px;
+}
+
+p.outro {
+    color: white;
+    padding-bottom: 20px;
+    margin-left: -50px
+}
+
+img.footer {
+    padding-left: 100px
+}
+
+div.intro {
+    background-color: #3E3838;
+    padding: 20px;
+
+
+}
+
+div.avengers {
+    background-color: #ffffff;
+    padding: 20px
+}
+
+div.star {
+    background-color: #6CBCB3;
+    padding: 20px;
+}
+
+div.woman {
+    background-color: #3E3838;
+    padding: 20px
+}
+
+div.footer {
+    background-color: black;
+    padding: 25px;
+}
