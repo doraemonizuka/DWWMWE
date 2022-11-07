@@ -1,0 +1,32 @@
+body{
+    background-color: #272635;
+    font-family:'Roboto', sans-serif;}
+main{
+    background-color: #484875;
+width: auto;
+height: auto;}
+div.containerH {
+display: flex;
+flex-direction: row;
+padding: 20px;
+justify-content: space-between;
+align-content: center;}
+h1{font-size: 350%;
+color: #272635;}
+h2{
+    font-size: 200%;
+    color: white;
+}
+
+div.containeri{
+    background-color: #272635;
+}
+
+
+div.container2{
+    background-color: #A7A7AD;
+    flex-direction: row;
+    justify-content: space-between;align-items: center;
+    width: 300px;
+    height: 500px;
+}

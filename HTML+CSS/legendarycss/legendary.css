@@ -1,6 +1,65 @@
 body {
     background-color: #EFE784;
     font-family: 'Roboto', sans-serif;
+    align-self: center;
+
+}
+
+.container1 {
+
+    display: flex;
+    margin: 20px;
+    align-items: center;
+
+    @media screen and (max-width: 360px) {
+        margin-left: 100px;
+        align-items: center
+    }
+
+    flex-direction: column;
+h2,
+p,
+h3,
+img.avengers,
+img.star,
+img.woman{
+    align-items:center
+}
+
+h1 {
+    align-items: center;
+    color: #EFE784;
+    font-style: thin;
+    font-size: larger;
+    letter-spacing: 12px;
+}
+
+
+
+
+
+
+    
+
+    div.header {
+        width: 360px
+    }
+
+    body {
+        width: 360px
+    }
+
+    div {
+        width: 300px
+    }
+
+
+
+p.sp2,
+p.sp3,
+h3.woman,
+p.woman {
+    color: #ffffff;
 }
 
 h2,
@@ -9,11 +68,11 @@ h3,
 img.avengers,
 img.star,
 img.woman {
-    padding-left: 150px
+    align-self: center;
 }
 
 h1 {
-    padding-left: 410px;
+    align-self: center;
     color: #EFE784;
     font-style: thin;
     font-size: larger;
@@ -22,14 +81,7 @@ h1 {
 
 
 body {
-    margin: 250px;
-}
-
-p.sp2,
-p.sp3,
-h3.woman,
-p.woman {
-    color: #ffffff;
+    align-self: center;
 }
 
 h2.intro {
@@ -46,6 +98,7 @@ img.header {
     width: 100%;
     margin-bottom: -105px;
     height: 250px;
+    align-self: center;
 }
 
 img.logoheader {
@@ -57,7 +110,7 @@ img.logoheader {
 p.outro {
     color: white;
     padding-bottom: 20px;
-    margin-left: -50px
+    align-self: center;
 }
 
 img.footer {
@@ -66,9 +119,7 @@ img.footer {
 
 div.intro {
     background-color: #3E3838;
-    padding: 20px;
-
-
+    padding: 20px
 }
 
 div.avengers {
@@ -89,4 +140,26 @@ div.woman {
 div.footer {
     background-color: black;
     padding: 25px;
+
+    img.footer {
+        align-self: flex-start
+    }
+
+    img.avengers,
+    img.star,
+    img.woman {
+        flex-basis: ;
+    }
+}
+
+
+img.footer,
+img.woman,
+img.star,
+img.avengers,
+img.intro {
+    display: flex;
+    justify-items: center;
+    margin: 0 auto
+    width:90%}
 }
